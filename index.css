@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    text-align: center;
+    background-color: #6df49f;
+    padding: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner h1 {
+    font-size: 2em;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+ul li div {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    margin-right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Am mărit padding-ul pentru a fi mai vizibil */
+    z-index: 1000; 
+}
+
+/* Opțional, adăugați un mic padding în partea de jos a body-ului pentru a evita ca footer-ul să acopere conținutul */
+body {
+    padding-bottom: 40px; /* Ajustați valoarea după necesitate */
+}
